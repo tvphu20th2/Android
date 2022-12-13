@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string-array name="list_name">
+        <item>th</item>
+        <item>th1</item>
+        <item>th2</item>
+        <item>th3</item>
+        <item>th4</item>
+        <item>th5</item>
+        <item>th6</item>
+        <item>th7</item>
+        <item>th8</item>
+        <item>th9</item>
+        <item>th10</item>
+    </string-array>
+</resources>

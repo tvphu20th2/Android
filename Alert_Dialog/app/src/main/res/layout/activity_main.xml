@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đăng Nhập Hệ Thống "
+        android:textColor="#009688"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittextuser"
+        android:layout_width="371dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+
+        android:hint="UserName"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittextpassword"
+        android:layout_width="378dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+
+        android:hint="Password"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chkLuu"
+            android:layout_width="243dp"
+            android:layout_height="32dp"
+            android:layout_margin="5dp"
+
+            android:text="Lưu Thông tin"
+            android:textColor="#9C27B0"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+
+            android:text="Đăng Nhập"
+            android:textColor="#FFC107"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+
+        android:text="Thoát"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

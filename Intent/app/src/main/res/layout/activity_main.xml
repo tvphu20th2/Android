@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewGoc"
+        android:layout_width="363dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/th" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="412dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="Chọn hình phía dưới"
+        android:textSize="38sp"
+        android:textColor="#ff0004"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewNhan"
+        android:layout_width="373dp"
+        android:layout_height="243dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="128dp"
+        app:srcCompat="@drawable/question_icon" />
+</RelativeLayout>

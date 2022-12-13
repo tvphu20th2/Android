@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+E:\HocTap\2022-2023\LapTrinhDiDong\Android\.metadata\.plugins\org.eclipse.jdt.core
+2159275956.index
+3847916020.index

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:background="#ffff04"
+        android:gravity="center"
+        android:text="Quản Lý Album"
+        android:textColor="#EA1D0E"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnThemAlbum"
+        android:layout_width="410dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="0dp"
+        android:text="Thêm Album"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnXemDSAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="0dp"
+        android:text="Xem Danh Sách Album"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnQlBH"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="247dp"
+        android:text="Quản Lý Bài Hát"
+        android:textSize="25sp" />
+</RelativeLayout>

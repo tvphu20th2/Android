@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtF"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0"
+        android:text="Fahrenheit" />
+
+    <EditText
+        android:id="@+id/editTextF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/txtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Celsius" />
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_weight="0">
+
+
+        <Button
+            android:id="@+id/btnChuyenDoC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Convert to Celsius" />
+
+        <Button
+            android:id="@+id/btnChuyenDoF"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:text="Convert to Fahrenheit" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Clear" />
+
+</LinearLayout>
